@@ -1,2 +1,4 @@
 # golang-web
-Simple web quickstart
+Simple GO language web quickstart
+
+@author jayAtWorkerBee
