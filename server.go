@@ -11,9 +11,9 @@ import (
 var counter int
 var mutex = &sync.Mutex{}
 
-func echoString("/", func(w http.ResponseWriter, r *http.Request) {
-	        fmt.Fprintf(w, "Hello")
-	}
+func echoString(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "Hello")
+}
 	
 func incrementCounter(w http.ResponseWriter, r *http.Request) {
 	mutex.Lock()
